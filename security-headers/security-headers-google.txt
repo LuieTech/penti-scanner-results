@@ -1,0 +1,44 @@
+
+Site:	https://www.google.com/
+IP Address:	209.85.203.103
+Report Time:	20 Nov 2025 17:42:35 UTC
+Headers:	
+Strict-Transport-Security Permissions-Policy X-Frame-Options Content-Security-Policy X-Content-Type-Options Referrer-Policy
+Advanced:	
+Not bad… Maybe you should perform a deeper security analysis of your website and APIs:	
+Missing Headers
+Content-Security-Policy	Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets.
+X-Content-Type-Options	X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is "X-Content-Type-Options: nosniff".
+Referrer-Policy	Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites.
+Raw Headers
+HTTP/2	200
+date	Thu, 20 Nov 2025 17:42:35 GMT
+expires	-1
+cache-control	private, max-age=0
+content-type	text/html; charset=UTF-8
+strict-transport-security	max-age=31536000
+content-security-policy-report-only	object-src 'none';base-uri 'self';script-src 'nonce-jfX3iQ6NjbIiZfSHcu6JTQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+cross-origin-opener-policy	same-origin-allow-popups; report-to="gws"
+report-to	{"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}
+accept-ch	Sec-CH-Prefers-Color-Scheme
+accept-ch	Downlink
+accept-ch	RTT
+accept-ch	Sec-CH-UA-Form-Factors
+accept-ch	Sec-CH-UA-Platform
+accept-ch	Sec-CH-UA-Platform-Version
+accept-ch	Sec-CH-UA-Full-Version
+accept-ch	Sec-CH-UA-Arch
+accept-ch	Sec-CH-UA-Model
+accept-ch	Sec-CH-UA-Bitness
+accept-ch	Sec-CH-UA-Full-Version-List
+accept-ch	Sec-CH-UA-WoW64
+permissions-policy	unload=()
+p3p	CP="This is not a P3P policy! See g.co/p3phelp for more info."
+content-encoding	gzip
+server	gws
+x-xss-protection	0
+x-frame-options	SAMEORIGIN
+set-cookie	AEC=AaJma5taEzFesYc04bLqnTRf-dMqD3RIbmFaHu8KLubtuIlyKIj63HrfHSs; expires=Tue, 19-May-2026 17:42:35 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+set-cookie	__Secure-ENID=29.SE=Odk36fQba2X0G9ViX0HLhKmAvn2n-J5i9vabwkkeqr8PevWKvtWVPq_6FNHJJiKJCb_vFbTtI3gunCnlVAvNlL8p3ltBWN_VzHdV-bpJatTbyihyAhGicux2fbd2BOZTQ-9h0q-tgWyrzUIpE6v7ntFuTeBmHgdPkVbdnvlBimOclrEhKTlQ2iduowXp7-w2WqQKPIq4zMUIIfCyo_qRG_A-MPQD8_04hqghixbdAzpvzo-w5Z4N0mtiu3ZWSoFwWA9HjRKEKIpkPwgJ; expires=Mon, 21-Dec-2026 10:00:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+alt-svc	h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

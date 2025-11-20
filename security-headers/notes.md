@@ -1,0 +1,1 @@
+Security Headers Scanner analyzes a website’s HTTP response headers to identify missing or insecure configurations. These headers help protect against attacks such as XSS, clickjacking, and data leaks by enforcing browser security policies. This scan was run against google.com using securityheaders.com.
